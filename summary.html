@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A quiz app about forest and trees.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forest Fact Quiz</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header role="banner" class="header">
+        <section>
+            <h1>Forest Ecology Quiz</h1>
+        </section>
+    </header>
+
+        <main role="main" aria-live="polite">
+            <section class="score-tracker">
+                <ul>
+                    <li class="increment">Question:
+                    <span class="question-number">10</span>/10</li>
+                    <li class="increment">Score:
+                    <span class="current-score">90%</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class='quiz-container'>
+                <div>
+                    <h1>Congratulations, you have finished the quiz!</h1>
+                </div>
+
+                <button type="submit" class="submit-button button">Restart</button > 
+            </section>
+
+        </main>
+
+    <!-- JS AND JQUERY HERE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>  
+    <script src="STORE.js"></script>    
+</body>
+</html>
